@@ -3,15 +3,15 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// Your web app's Firebase configuration - to be replaced with actual config
-// For security in a real app, these would be environment variables
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDUhZ5qy_yKp1_0Mcym53_yTyKsNOIevJ8",
+  authDomain: "todo-fa18b.firebaseapp.com",
+  projectId: "todo-fa18b",
+  storageBucket: "todo-fa18b.firebasestorage.app",
+  messagingSenderId: "286835601807",
+  appId: "1:286835601807:web:c9df8ba40c1bc842ee1bfa",
+  measurementId: "G-TKGRERKFQG"
 };
 
 // Initialize Firebase
